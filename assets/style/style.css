@@ -1,0 +1,105 @@
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* Chrome */
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Opéra*/
+
+input::-o-inner-spin-button,
+input::-o-outer-spin-button {
+    -o-appearance: none;
+    margin: 0
+}
+
+.colorText1 {
+    color: #bba791;
+    font-size: 20px;
+}
+
+.colorText2 {
+    color: #c0484c;
+    font-size: 15px;
+}
+
+.colorText3 {
+    color: #d3c1ae;
+    font-size: 15px;
+}
+
+.calculatorArea {
+    background-color: #718377;
+    width: 30%;
+    border-radius: 30px;
+}
+
+.buttonNumber {
+    background-color: #6b6c61;
+    color: #dfe1e6;
+}
+
+.exeButton {
+    background-color: #86bae1;
+    color: #dfe1e6;
+}
+
+.razButton {
+    background-color: #d6beb4;
+    color: #dfe1e6;
+}
+
+#nb1,
+#nb2,
+#operator {
+    width: 100px;
+    height: 150px;
+    font-size: 30px;
+}
+
+.buttonSize1 {
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+.borderCasio {
+    border: 1px solid #95b19e;
+    border-radius: 20px;
+}
+
+#overview {
+    width: 310px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.borderWindow {
+    background-color: #ffffff;
+    margin-right: 25px;
+    margin-left: 25px;
+    border: 1px solid #95b19e;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+}
+
+.fontPixel {
+    font-family: "small_pixel";
+}
+
+@font-face {
+    font-family: "small_pixel";
+    src: url("../font/small_pixel.ttf") format("ttf");
+}
