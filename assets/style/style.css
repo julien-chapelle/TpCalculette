@@ -61,7 +61,7 @@ input::-o-outer-spin-button {
 #nb1,
 #nb2,
 #operator {
-    width: 100px;
+    width: 95px;
     height: 150px;
     font-size: 30px;
 }
@@ -78,7 +78,7 @@ input::-o-outer-spin-button {
 }
 
 #overview {
-    width: 310px;
+    width: 305px;
     height: 30px;
     font-size: 20px;
 }
@@ -95,11 +95,11 @@ input {
     border: none;
 }
 
-.fontPixel {
-    font-family: "small_pixel";
+.pixelFont {
+    font-family:"PixelFont";
 }
 
 @font-face {
-    font-family: "small_pixel";
-    src: url("../font/small_pixel.ttf") format("ttf");
+    font-family: "PixelFont";
+    src: url("../font/VCR_OSD_MONO_1.001.ttf") format("truetype");
 }

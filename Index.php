@@ -34,16 +34,16 @@ require('model/model.php');
                     CASIO
                 </p>
             </div>
-            <div class="borderCasio mx-4 py-1 mb-2 fontPixel">
+            <div class="borderCasio mx-4 py-1 mb-2 pixelFont">
                 <div class="borderWindow">
-                    <input type="text" name="result" class="m-0 text-right pt-1 fontPixel" value="<?= (isset($_POST['validate']) && !empty($_POST)) ? "Résultat : " . $result : "" ?>" id="overview" readonly />
-                    <input type="text" name="overview" class="m-0 text-right fontPixel" value="<?= (isset($_POST['validate']) && !empty($_POST)) ? "Calcul : " . $overview : "" ?>" id="overview" readonly />
+                    <input type="text" name="result" class="m-0 text-right pt-1 pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST)) ? "Résultat : " . $result : "" ?>" id="overview" readonly />
+                    <input type="text" name="overview" class="m-0 text-right pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST)) ? "Calcul : " . $overview : "" ?>" id="overview" readonly />
                     <form action="Index.php" method="POST">
                         <div class="row m-0 my-1 justify-content-center">
                             <div class="col p-0">
-                                <input type="text" name="nb1" class="m-0 ml-1 text-center fontPixel" value="" id="nb1" readonly />
-                                <input type="text" name="operator" class="m-0 text-center fontPixel" value="" id="operator" readonly />
-                                <input type="text" name="nb2" class="m-0 mr-1 text-center fontPixel" value="" id="nb2" readonly />
+                                <input type="text" name="nb1" class="m-0 ml-1 text-center pixelFont" value="" id="nb1" readonly />
+                                <input type="text" name="operator" class="m-0 text-center pixelFont" value="" id="operator" readonly />
+                                <input type="text" name="nb2" class="m-0 mr-1 text-center pixelFont" value="" id="nb2" readonly />
                             </div>
                         </div>
                 </div>
