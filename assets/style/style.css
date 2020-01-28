@@ -24,23 +24,23 @@ input::-o-outer-spin-button {
 
 .colorText1 {
     color: #bba791;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .colorText2 {
     color: #c0484c;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .colorText3 {
     color: #d3c1ae;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .calculatorArea {
     background-color: #718377;
     width: 30%;
-    border-radius: 30px;
+    border-radius: 1rem;
 }
 
 .buttonNumber {
@@ -61,34 +61,34 @@ input::-o-outer-spin-button {
 #nb1,
 #nb2,
 #operator {
-    width: 95px;
-    height: 150px;
-    font-size: 30px;
+    width: 6rem;
+    height: 10rem;
+    font-size: 1.5rem;
 }
 
 .buttonSize1 {
-    width: 60px;
+    width: 3.8rem;
     text-align: center;
-    padding: 10px;
+    padding: 0.7rem;
 }
 
 .borderCasio {
     border: 1px solid #95b19e;
-    border-radius: 20px;
+    border-radius: 1rem;
 }
 
 #overview {
-    width: 305px;
-    height: 30px;
-    font-size: 20px;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
 }
 
 .borderWindow {
     background-color: #ffffff;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
     border: 1px solid #95b19e;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 input {

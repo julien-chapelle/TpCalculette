@@ -1,10 +1,5 @@
 <?php
 require('model/model.php');
-// var_dump($_POST);
-// var_dump($result);
-// var_dump($overview);
-
-// var_dump($arrayValue);
 
 ?>
 
@@ -36,8 +31,8 @@ require('model/model.php');
             </div>
             <div class="borderCasio mx-4 py-1 mb-2 pixelFont">
                 <div class="borderWindow">
-                    <input type="text" name="result" class="m-0 text-right pt-1 pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST)) ? "Résultat : " . $result : "" ?>" id="overview" readonly />
-                    <input type="text" name="overview" class="m-0 text-right pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST)) ? "Calcul : " . $overview : "" ?>" id="overview" readonly />
+                    <input type="text" name="result" class="m-0 text-right pt-1 pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST['nb2'] != '' && $_POST['operator'] != '') ? "Résultat : " . $result : "" ?>" id="overview" readonly />
+                    <input type="text" name="overview" class="m-0 text-right pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST['nb2'] != '' && $_POST['operator'] != '') ? "Calcul : " . $overview : "$errorMessage" ?>" id="overview" readonly />
                     <form action="Index.php" method="POST">
                         <div class="row m-0 my-1 justify-content-center">
                             <div class="col p-0">
