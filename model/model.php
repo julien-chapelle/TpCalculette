@@ -2,7 +2,7 @@
 
 if (isset($_POST['raz'])) {
     header('refresh: 0');
-}
+};
 
 if (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST['nb2'] != '' && $_POST['operator'] != '') {
 

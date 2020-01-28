@@ -39,4 +39,19 @@ $(function () {
         $('#overview').val("");
     });
 
+    $("#dot").click(function () {
+        $(this).attr("disabled","disabled");
+    });
+    $("#multiply").click(function () {
+        $("#dot").removeAttr("disabled");
+    });
+    $("#split").click(function () {
+        $("#dot").removeAttr("disabled");
+    });
+    $("#more").click(function () {
+        $("#dot").removeAttr("disabled");
+    });
+    $("#less").click(function () {
+        $("#dot").removeAttr("disabled");
+    });
 });

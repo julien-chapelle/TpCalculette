@@ -59,7 +59,7 @@ require('model/model.php');
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="7" value="7" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="8" value="8" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="9" value="9" />
-                        <input type="submit" class="btn razButton shadow buttonSize1" name="raz" value="On" id="raz" />
+                        <input type="submit" class="btn razButton shadow buttonSize1" name="raz" value="On/ac" id="raz" />
                         <input type="button" class="btn razButton shadow buttonSize1" value="Off" id="powerOff" />
                     </div>
                 </div>
@@ -68,8 +68,8 @@ require('model/model.php');
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="4" value="4" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="5" value="5" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="6" value="6" />
-                        <input type="button" class="btn buttonNumber shadow operator buttonSize1" name="multiply" value="x" />
-                        <input type="button" class="btn buttonNumber shadow operator buttonSize1" name="split" value="/" />
+                        <input type="button" class="btn buttonNumber shadow operator buttonSize1" name="multiply" value="x" id="multiply" />
+                        <input type="button" class="btn buttonNumber shadow operator buttonSize1" name="split" value="/" id="split" />
 
                     </div>
                 </div>
@@ -78,15 +78,15 @@ require('model/model.php');
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="1" value="1" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="2" value="2" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="3" value="3" />
-                        <input type="button" class="btn buttonNumber shadow operator buttonSize1" name="more" value="+" />
-                        <input type="button" class="btn buttonNumber shadow operator buttonSize1" name="less" value="-" />
+                        <input type="button" class="btn buttonNumber shadow operator buttonSize1" name="more" value="+" id="more" />
+                        <input type="button" class="btn buttonNumber shadow operator buttonSize1" name="less" value="-" id="less" />
 
                     </div>
                 </div>
                 <div class="row my-2">
                     <div class="col">
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="0" value="0" />
-                        <input type="button" class="btn buttonNumber shadow number buttonSize1" name="dot" value="." />
+                        <input type="button" class="btn buttonNumber shadow number buttonSize1" name="dot" value="." id="dot" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" value="x10x" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" value="(-)" />
                         <input type="submit" class="btn exeButton shadow buttonSize1" name="validate" value="EXE" id="exe" />
