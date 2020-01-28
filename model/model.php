@@ -28,4 +28,5 @@ if (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST
     $errorMessage = "Saisir une opération";
 };
 
+
 ?>

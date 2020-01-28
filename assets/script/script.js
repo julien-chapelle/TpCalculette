@@ -17,4 +17,26 @@ $(function () {
         operatorChecked = true;
     });
 
+    $('#powerOff').click(function () {
+        $('#nb1').css({
+            "background-color": "#616962"
+        });
+        $('#nb2').css({
+            "background-color": "#616962"
+        });
+        $('#operator').css({
+            "background-color": "#616962"
+        });
+        $('#overview').css({
+            "background-color": "#616962"
+        });
+        $('#result').css({
+            "background-color": "#616962"
+        });
+        $('.borderWindow').css({
+            "background-color": "#616962"
+        });
+        $('#overview').val("");
+    });
+
 });

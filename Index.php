@@ -31,8 +31,8 @@ require('model/model.php');
             </div>
             <div class="borderCasio mx-4 py-1 mb-2 pixelFont">
                 <div class="borderWindow">
-                    <input type="text" name="result" class="m-0 text-right pt-1 pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST['nb2'] != '' && $_POST['operator'] != '') ? "Résultat : " . $result : "" ?>" id="overview" readonly />
-                    <input type="text" name="overview" class="m-0 text-right pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST['nb2'] != '' && $_POST['operator'] != '') ? "Calcul : " . $overview : "$errorMessage" ?>" id="overview" readonly />
+                    <input type="text" name="result" class="m-0 text-right pt-1 pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST['nb2'] != '' && $_POST['operator'] != '') ? "Résultat : " . $result : "" ?>" id="result" readonly />
+                    <input type="text" name="overview" class="m-0 <?= (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST['nb2'] != '' && $_POST['operator'] != '') ? 'text-right' : 'text-center' ?> pixelFont" value="<?= (isset($_POST['validate']) && !empty($_POST) && $_POST['nb1'] != '' && $_POST['nb2'] != '' && $_POST['operator'] != '') ? "Calcul : " . $overview : "$errorMessage" ?>" id="overview" readonly />
                     <form action="Index.php" method="POST">
                         <div class="row m-0 my-1 justify-content-center">
                             <div class="col p-0">
@@ -58,8 +58,8 @@ require('model/model.php');
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="7" value="7" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="8" value="8" />
                         <input type="button" class="btn buttonNumber shadow number buttonSize1" name="9" value="9" />
-                        <input type="submit" class="btn razButton shadow buttonSize1" name="raz" value="raz" id="raz" />
-                        <input type="button" class="btn razButton shadow buttonSize1" value="AC/on" />
+                        <input type="submit" class="btn razButton shadow buttonSize1" name="raz" value="On" id="raz" />
+                        <input type="button" class="btn razButton shadow buttonSize1" value="Off" id="powerOff" />
                     </div>
                 </div>
                 <div class="row my-2">
