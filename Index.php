@@ -1,6 +1,7 @@
 <?php
+$arrayError = [];
 require('model/model.php');
-
+// var_dump($arrayError);
 ?>
 
 <!DOCTYPE html>
